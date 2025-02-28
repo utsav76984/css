@@ -312,16 +312,42 @@
         margin-top: 70px;
         display: flex;
         justify-content: space-evenly;
+        /* background-color: #494a4b; */
       
     }
  .part{
 
     width: 25%;
-    font-size: 20px;
+    font-size: 18px;
     
  }
 
- 
+ .bont{
+
+    color: rgb(187, 190, 192);
+    }
+ .part p{
+
+       font-weight: 300px;
+        
+        
+ }
+
+ .bet{
+
+    font-size: 30px;
+ }
+
+ .antu{
+
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+ }
 
 
 
