@@ -3,6 +3,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: "Lato", serif;
     
 }
 
@@ -13,8 +14,8 @@
     width: 100%;
     height: 100px;
     display: flex;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: fixed;
+    top: 0;
     background-color: white;
     z-index: 100;
     
@@ -24,9 +25,8 @@
         width: 50%;
         height: 100px;
         padding-top: 20px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         display: flex;
-        
+        margin-left: 20px;
       
 
 
@@ -34,37 +34,58 @@
 .nav2{
     width: 50%;
     height: 100px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     justify-content: space-around;
     justify-items: center;
     align-items: center;
     display: flex;
-  
-
 
 }
 
+.ul{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.ul i{
+
+    font-size: 20px;
+    color: #212529;
+    margin-right: 10px;
+}
+.UT I{
+
+    color: rgb(7, 7, 7);
+    font-size: 20PX;
+    
+}
+
+
     /* ********hiro section****** */
 
-
+    .bg-grey{
+          background-color:#EDF1F3;
+    }
  
 
 .containar{
 
-    width: 100%;
-    /* margin: 20%; */
-    height: 500px;
-    background-color: #dee2e6;
+   max-width: 1320px;
+
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
     
+    
+}
+.mt{
+    margin-top: 100px;
 }
 
 .shop{
     display: flex;
     font-size: 20px;
     justify-content: end;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", serif;
 }
 
 .smart1{
@@ -72,8 +93,11 @@
     width: 60%;
     height: 400px;
     margin: 20px;
-    transform: translateX(+20%);
     padding-top: 90px;
+    font-family: "Lato", serif;
+    color: rgb(10, 10, 10);
+    /* margin-top: 100px; */
+    
 
 }
 
@@ -92,24 +116,27 @@
 
 .smart1 button{
 
-    font-size: 20px;
+    font-size: 15px; 
+    height: 50px;
+    width: 250px;
+    padding: 10px;
     background-color: black;
     color: white;
+    margin-top: 80px; 
 
 }
 
 .smart2{
 
-    width: 40%;
-    height: 400px;
-    margin: 20px;
+    width: 50%;
+    padding: 10px;
+    
     
 }
 
 
 .smart2 img{
-    height: 400px;
-    width: 50%;
+    width: 100%;
     align-items: center;
     text-justify: auto;
 
@@ -135,6 +162,16 @@
 .card{
     
     position: relative;
+    font-family: "Lato", serif;
+}
+
+i{
+    color: #72AEC8;
+    font-size: 30px;
+
+}
+.desc p{
+    font-size: 21px;
 }
 
 .products .price{
@@ -145,7 +182,7 @@
 .smart1 h1{
 
     font-size: 70px;
-    font-family: Arial;
+   
 }
 
 .btn{
@@ -172,7 +209,7 @@
 
 .product-title{
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 
@@ -204,7 +241,7 @@
    .pera{
 
     
-    margin: 60px;
+    margin: 10px;
     height: 50%;
     width: 100%;
     align-items: center;
@@ -215,18 +252,38 @@
 
 }
 .pera h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
     color: #494a4b;
     letter-spacing: 1px;
     
    
 }
-
+.cover{
+    display: flex;
+    justify-content: center;
+ 
+}
+.cover i{
+    font-size: 100px;
+    color: #ebebeb;
+    margin-top: 5%;
+   
+}
 .name{
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+P{
+    justify-content: center;
+    display: flex;
+}
+.moniter{
+
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
 }
 
  .container4{ 
@@ -237,6 +294,7 @@
     background-color: rgb(7, 7, 7);
     display: flex;
     justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -262,7 +320,7 @@
 
 .btn9{
        
-        background-color: aqua;
+        background-color:  #72AEC8;
         color: white;
         padding: 10px;
         font-size: 15px;
@@ -288,7 +346,7 @@
  .title{
 
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+
     text-align: center;
     
 
@@ -326,11 +384,19 @@
 
     color: rgb(187, 190, 192);
     }
+
  .part p{
 
        font-weight: 300px;
+       line-height: 2;
         
         
+ }
+
+ .part i{
+    
+    margin: 10px;
+
  }
 
  .bet{
@@ -349,6 +415,18 @@
     font-size: 10px;
  }
 
+
+.diked{
+
+    width: 100%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
 
 
      
