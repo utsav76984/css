@@ -41,6 +41,11 @@
 
 }
 
+a :hover{
+
+    color: #72AEC8;
+}
+
 .ul{
 display: flex;
 justify-content: space-evenly;
@@ -53,6 +58,21 @@ align-items: center;
     color: #212529;
     margin-right: 10px;
 }
+
+.pages{
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
 .UT I{
 
     color: rgb(7, 7, 7);
@@ -106,14 +126,22 @@ align-items: center;
     justify-content: space-between;
     font-family: "Lato", serif;
     font-weight: 500;
+    transition: all;
 }
+
+
 .desc p,h2,h1{
     font-family: "Lato", serif;
     font-weight: 500;
+
+}
+/* .desc{
+    transition: all;
 }
 
-
-
+.red :hover{
+    color: #72AEC8;
+} */
 .smart1 button{
 
     font-size: 15px; 
@@ -148,12 +176,14 @@ align-items: center;
 
     max-width: 1320px;
     margin:100px auto;
-
     
 }
+  
+
 .products{
     display: flex;
 }
+
 
 .w-25{
     width: 25%;
@@ -170,9 +200,18 @@ i{
     font-size: 30px;
 
 }
+.desc1 {
+    transition: all;
+}
 .desc p{
     font-size: 21px;
 }
+
+.desc1:hover h2{
+    color:  #72AEC8;
+
+}
+
 
 .products .price{
     color: rgb(0, 200, 255);
@@ -209,7 +248,7 @@ i{
 
 .product-title{
     font-size: 30px;
-   
+    justify-content: start;
 }
 
 
@@ -236,7 +275,7 @@ i{
 }
 .desc1 h2{
     color: #252525;
-   }
+ }
 
    .pera{
 
@@ -378,6 +417,8 @@ P{
     width: 25%;
     font-size: 18px;
     
+    
+    
  }
 
  .bont{
@@ -427,6 +468,8 @@ P{
     align-items: center;
     color: aliceblue;
 }
+
+
 
 
      
